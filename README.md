@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-#### ThBlitz
+# ThBlitz
