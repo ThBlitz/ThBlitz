@@ -1,3 +1,3 @@
-### Hi there 👋
 
-# ThBlitz
+# Hi 👋 
+# Welcome to my GitHub.
