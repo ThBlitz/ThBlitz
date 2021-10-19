@@ -101,7 +101,8 @@ a {
     font-size: 90%;
 
     border: 1px solid var(--silver_grey);
-    padding: 3px 5px 0px 2px;
+    /* padding: 0px 5px 0px 2px; */
+    padding: .2% .4% .2% .2%;
     border-width: medium;
 }
 
@@ -159,7 +160,9 @@ a {
   transform: rotate(-45deg) translate(0px, 12px);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+    opacity: 0;
+}
 
 .change .bar3 {
 
@@ -178,11 +181,13 @@ a {
 .icon h4:hover, .close h4:hover {
     color: var(--platinum_white);
     letter-spacing: 3px;
+    transform: translateX(2px);
 }
 
 .icon i:hover {
     color: var(--platinum_white);
-    margin-left: 2px;
+    /* margin-left: 2%; */
+    transform: translateX(4px);
 }
 
 .menue {
@@ -340,8 +345,8 @@ a {
 }
 
 .about_me_title {
-
-    color: var(--silver_grey);
+    position: relative;
+    color: var(--battleship_grey);
     position: relative;
     width: 100%;
     flex-flow: row;
@@ -350,11 +355,38 @@ a {
     text-align: center;
 }
 
-.about_me_title h2 {
+.about_me_title h4 {
     font-family: 'Urbanist', sans-serif;
-    font-size: 160%;
+    font-size: 100%;
     letter-spacing: 12px;
     font-weight: lighter;
+}
+
+.about_content {
+    position: relative;
+
+    height: 100%;
+    padding: 0 2% 8% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--silver_grey);
+    text-align: center;
+}
+
+.about_content h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 200%;
+    padding: 0 0 2% 0;
+    letter-spacing: 8px;
+}
+
+
+.about_content h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 200%;
+    padding: 0 0 .5% 0;
+    letter-spacing: 8px;
 }
 
 .my_works_section {
