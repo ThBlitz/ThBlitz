@@ -116,6 +116,7 @@ a {
 .title a:hover {
     color: var(--platinum_white);
     letter-spacing: .5px;
+    cursor: default;
 }
 
 .title h5 {
