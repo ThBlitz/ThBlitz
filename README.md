@@ -7,4 +7,4 @@
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ThBlitz&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 # 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ThBlitz)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ThBlitz&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
